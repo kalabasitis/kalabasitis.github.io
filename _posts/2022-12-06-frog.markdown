@@ -1,0 +1,13 @@
+---
+title: Frog
+subtitle: 
+layout: default
+modal-id: 3
+date: 2022-12-06
+img: video
+vid: IMG_4908.MP4
+thumbnail: frog-thumbnail.png
+alt: image-alt
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---

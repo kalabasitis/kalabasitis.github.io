@@ -1,0 +1,17 @@
+---
+title: Small X-mas tree and Curacao
+subtitle: 
+layout: default
+modal-id: 2
+date: 2022-12-07
+img: video
+# img: startup-framework.png
+vid: IMG_4906.MP4
+thumbnail: xmas-thumbnail.png
+alt: image-alt
+# project-date: April 2014
+# client: Start Bootstrap
+# category: Web Development
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---
