@@ -10,6 +10,6 @@ thumbnail: frog-thumbnail.png
 alt: image-alt
 price: Between NAf 55 and NAf 500 depending on size and design
 size: Large
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: A Handcrafted Frog Artwork, Meticulously Engraved on the Natural Surface of a Gourd, Capturing the Charming Details of This Beloved Amphibian.
 
 ---

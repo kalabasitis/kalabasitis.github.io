@@ -14,6 +14,6 @@ price: Between NAf 55 and NAf 500 depending on size and design
 # client: Start Bootstrap
 # category: Web Development
 size: Small
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Embrace the Festive Spirit. A Miniature Christmas Tree Engraved with Love and Care on a Delicate Gourd Surface, Perfect for Adding a Touch of Holiday Cheer to Your Decor.
 
 ---
