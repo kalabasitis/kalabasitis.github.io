@@ -11,5 +11,5 @@ alt: image-alt
 price: Between NAf 55 and NAf 500 depending on size and design
 size: Large
 description: A Handcrafted Frog Artwork, Meticulously Engraved on the Natural Surface of a Gourd, Capturing the Charming Details of This Beloved Amphibian.
-
+tags: lamp
 ---

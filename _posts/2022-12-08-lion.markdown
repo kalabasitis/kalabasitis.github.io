@@ -15,5 +15,5 @@ price: Between NAf 55 and NAf 500 depending on size and design
 # category: Web Development
 size: Large
 description: Behold the Majestic King of the Jungle. A Strikingly Engraved Lion Artwork, Crafted with Intricate Detail on the Natural Surface of a Gourd.
-
+tags: lamp
 ---

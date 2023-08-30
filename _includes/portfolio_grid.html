@@ -7,8 +7,20 @@
                     <h3 class="section-subheading text-muted">Handcrafted Artwork Made from Gourds.</h3>
                 </div>
             </div>
+            <div class="row" style="text-align: center">
+                <a href="/#lamps" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Lamps</a>
+                <a href="/#hanginglamps" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Hanging Lamps</a>
+                <a href="/#birdhouses" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Birdhouses</a>
+                <a href="/#planters" class="btn btn-primary btn-lg" role="button" aria-disabled="true">Planters</a>
+            </div>
+            <br>
+            <div class="row" style="text-align: center" id="lamps">
+                <h3>Lamps</h3>    
+            </div>
+            <br>
             <div class="row">
             {% for post in site.posts %}
+            {% if post.tags contains "lamp" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -23,7 +35,83 @@
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
                 </div>
+            {% endif %}
             {% endfor %}
+            </div>
+
+            <div class="row" style="text-align: center" id="hanginglamps">
+                <h3>Hanging Lamps</h3>    
+            </div>
+            <br>
+            <div class="row" id="lamps">
+                {% for post in site.posts %}
+                {% if post.tags contains "hanginglamp" %}
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted">{{ post.subtitle }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="row" style="text-align: center" id="birdhouses">
+                <h3>Birdhouses</h3>    
+            </div>
+            <br>
+            <div class="row" id="lamps">
+                {% for post in site.posts %}
+                {% if post.tags contains "birdhouse" %}
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted">{{ post.subtitle }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="row" style="text-align: center" id="planters">
+                <h3>Planters</h3>    
+            </div>
+            <br>
+            <div class="row" id="lamps">
+                {% for post in site.posts %}
+                {% if post.tags contains "planter" %}
+                    <div class="col-md-4 col-sm-6 portfolio-item">
+                        <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <i class="fa fa-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <h4>{{ post.title }}</h4>
+                            <p class="text-muted">{{ post.subtitle }}</p>
+                        </div>
+                    </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>

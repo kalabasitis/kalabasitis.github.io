@@ -15,5 +15,5 @@ price: Between NAf 55 and NAf 500 depending on size and design
 # category: Web Development
 size: Small
 description: Embrace the Festive Spirit. A Miniature Christmas Tree Engraved with Love and Care on a Delicate Gourd Surface, Perfect for Adding a Touch of Holiday Cheer to Your Decor.
-
+tags: lamp
 ---
